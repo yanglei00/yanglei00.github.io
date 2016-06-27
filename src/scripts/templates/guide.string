@@ -1,0 +1,16 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/football/images/slide1.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/football/images/slide2.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/football/images/slide3.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/football/images/slide4.png">
+    </div>
+  </div>
+</div>

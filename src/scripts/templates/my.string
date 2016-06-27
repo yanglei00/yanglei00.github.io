@@ -1,0 +1,40 @@
+
+<!-- 用iscroll实现导航条水平滚动的效果 -->
+<!-- <div class="m-lifenav" spa-widget="scroll" data-scroll-id="lifenav-scroll">
+  <ul>
+    <li>nav01</li>
+    <li>nav02</li>
+    <li>nav03</li>
+    <li>nav04</li>
+    <li>nav05</li>
+    <li>nav06</li>
+    <li>nav07</li>
+    <li>nav08</li>
+  </ul>
+</div> -->
+
+<!-- 实现dialog弹窗效果 -->
+<div class="yo-dialog yo-dialog-a">
+    <header class="hd">
+        <h2 class="title">标题</h2>
+    </header>
+    <div class="bd">
+
+    </div>
+    <footer class="ft">
+        <button action-type="close" class="yo-btn yo-btn-dialog yo-btn-l">取消</button>
+        <button class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
+    </footer>
+</div>
+<!-- 实现活动清单的效果 -->
+
+<!-- <div class="yo-actionsheet">
+    <div class="menu">
+        <h3 class="title">保存图片？</h3>
+        <div class="item">存储图像</div>
+        <div class="item">拷贝</div>
+    </div>
+    <ul class="action">
+        <li class="item">取消</li>
+    </ul>
+</div> -->

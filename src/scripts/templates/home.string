@@ -1,0 +1,71 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li class="yo-ico">&#xe745;</li>
+      <li>
+        <ul id="home-nav">
+          <li class="active" action-type="tap.home.slide">热点</li>
+          <li action-type="tap.home.slide">关注</li>
+        </ul>
+      </li>
+      <li class="yo-ico">&#xe684;</li>
+    </ul>
+  </header>
+  <div class="swiper-container" id="home-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <nav>
+          <ul>
+            <li class="active" action-type="tap.slide">足球现场</li>
+            <li action-type="tap.slide">足球生活</li>
+            <li action-type="tap.slide">足球美女</li>
+          </ul>
+        </nav>
+        <div class="swiper-container" id="home-hot-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- 自定义属性spa-widget是为了实现iscroll的上下滑动的效果 -->
+              <!--  自定义的data-scroll-id属性是为了实现上拉加载下拉刷新的效果-->
+              <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+                <div>
+                  <!-- 拿到ajax请求来的数据livlist将它赋值给自定义的ms-repeat-value属性 -->
+                  <div class="head">
+                      <img src="/football/images/arrow.png" width="40" height="40"/>
+                      <span>下拉刷新...</span>
+                  </div>
+                  <ul ms-repeat-value="livelist">
+                    <li action-type="goto.detail" ms-attr-data-id="value[0].id">
+                      <i><img ms-src="value[0].imgsrc"></i>
+                      <b ms-text="value[0].title">你是我的眼</b>
+                    </li>
+                    <li></li>
+                    <!--自定义一个ms-class-hide属性 赋值!value[1]  它会自动转化为true或者false -->
+                    <li ms-class-hide="!value[1]" ms-attr-data-id="value[1].id">
+                      <i><img ms-src="value[1].imgsrc"></i>
+                      <b ms-text="value[1].title">你是我的眼</b>
+                    </li>
+                  </ul>
+                  <div class="foot">
+                      <img src="/football/images/arrow.png" width="40" height="40"/>
+                      <span>上拉加载更多...</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="swiper-slide">
+              足球生活
+            </div>
+            <div class="swiper-slide">
+              足球美女
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        你是我的眼
+      </div>
+    </div>
+  </div>
+
+</div>
