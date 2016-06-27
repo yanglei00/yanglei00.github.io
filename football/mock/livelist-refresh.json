@@ -1,0 +1,23 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/football/images/img1.jpg",
+      "title": "refresh樱桃小丸子1"
+    },
+    {
+      "imgsrc": "/football/images/img2.jpg",
+      "title": "refresh樱桃小丸子2"
+    },
+    {
+      "imgsrc": "/football/images/img3.jpg",
+      "title": "refresh樱桃小丸子3"
+    },
+    {
+      "imgsrc": "/football/images/img4.jpg",
+      "title": "refresh樱桃小丸子4"
+    }
+  ]
+}
